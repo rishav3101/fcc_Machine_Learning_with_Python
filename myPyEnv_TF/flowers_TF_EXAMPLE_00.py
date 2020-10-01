@@ -1,5 +1,5 @@
-import tensorflow as tf
-import pandas as pd
+import tensorflow as tf #tensorflow 
+import pandas as pd #pandas
 tf.keras.backend.set_floatx('float64')
 CSV_COLUMN_NAMES = ['SepalLength', 'SepalWidth', 'PetalWidth', 'Species', ]
 SPECIES = ['Setosa', 'Versicolor', 'Virginica']
